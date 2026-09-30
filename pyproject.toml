@@ -1,0 +1,16 @@
+[build-system]
+requires = ["setuptools>=68", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "scimatch-anonymous"
+version = "0.1.0"
+description = "Anonymous research implementation of SciMatch"
+requires-python = ">=3.11"
+dependencies = ["numpy>=1.24", "torch>=2.1"]
+
+[project.optional-dependencies]
+dev = ["pytest>=7"]
+
+[tool.setuptools.packages.find]
+include = ["scimatch*"]

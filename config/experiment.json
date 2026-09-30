@@ -1,0 +1,17 @@
+{
+  "benchmarks": ["Terminal-Bench-Science 0.1", "ScienceAgentBench", "CompChemBench", "SciAgentArena", "ReplicationBench"],
+  "models": ["Qwen3-8B", "Qwen3-Coder-30B-A3B-Instruct", "DeepSeek-V3.1", "Claude Sonnet 5"],
+  "harness_levels": ["H0 core", "H1 typed tools", "H2 persistent state", "H3 scientific guards", "H4 verification/recovery"],
+  "deepseek_relative_costs": [1.0, 1.1, 1.25, 1.52, 1.86],
+  "epsilon_task": 0.30,
+  "epsilon_science": 0.10,
+  "max_decisions": 16,
+  "hysteresis": 0.02,
+  "max_local_recovery": 2,
+  "max_model_escalations": 1,
+  "candidate_levels_per_prefix": 2,
+  "evaluation_seeds": [42, 3407, 2026],
+  "predictor_seed": 3407,
+  "bootstrap_seed": 2026,
+  "bootstrap_replicates": 10000
+}

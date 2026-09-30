@@ -1,0 +1,11 @@
+{
+  "status": "REPLACE_WITH_VERIFIED_RELEASE_MANIFEST",
+  "model_ids_and_immutable_revisions": {},
+  "benchmark_release_hashes": {},
+  "container_digests": {},
+  "provider_api_snapshots": {},
+  "pricing_date_and_rates": {},
+  "svr_adapter_commit": null,
+  "cuda_and_pytorch_versions": {},
+  "official_evaluator_versions": {}
+}
